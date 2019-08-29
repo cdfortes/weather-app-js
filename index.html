@@ -9,7 +9,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>Wheater APP</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/css/reset.css">
@@ -24,17 +24,18 @@
 
     <div class="location">
         <h1 class="location-timezone">Timezone</h1>
-        <p>Icon</p>
+        <canvas class="icon" width="128" height="128"></canvas>
     </div>
-    <div class="temperature">
+    <div class="temperature-section">
         <div class="degree-section">
             <h2 class="degree">34</h2>
-            <span>C</span>
+            <span>F</span>
         </div>
 
         <div class="temperature-description">Its friggin cold</div>
     </div>
     <script src="app.js" async defer></script>
+    <script src="skycons.js" async defer></script>
 </body>
 
 </html>
